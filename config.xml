@@ -1,14 +1,13 @@
-<?xml version='1.0.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <widget id="com.recentsky.test" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Recentsky</name>
     <description>
-        Tools for make things more good.
+         Tools for make things more good.
     </description>
     <author email="support@recentsky.com" href="https://www.recentsky.com">
         Recentsky Team
     </author>
-    <content src="/login" />
-    <access origin="*" />
+    <content src="index.html" />
     <access origin="*" />
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <allow-intent href="http://*/*" />
@@ -17,8 +16,8 @@
     <allow-intent href="sms:*" />
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
-    
-    <icon src = "www/images/icons-512.png" 
+	
+ 	<icon src = "www/images/icons-512.png" 
       gap:platform = "android" gap:qualifier = "ldpi" />
 		
    <icon src = "www/images/icons-512.png" 
@@ -33,3 +32,4 @@
    <icon src = "www/images/icons-512.png" 
       gap:platform = "android" gap:qualifier = "xxhdpi" />
 </widget>
+
