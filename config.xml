@@ -11,7 +11,7 @@
     <access origin="*" />
     
     <plugin name="cordova-plugin-whitelist" spec="1.3.4" />
-    <plugin name="cordova-plugin-splashscreen" spec="1.3.4" />
+    <plugin name="cordova-plugin-splashscreen" />
 	
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
