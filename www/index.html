@@ -3,7 +3,7 @@
     <head>
         <title>Recentsky</title>
         <meta charset="utf-8">
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
         <meta name="theme-color" content="#3f51b5">
         <link rel="manifest" href="./manifest.json">
         <link rel="shortcut icon" href="./favicon.ico">
@@ -13,11 +13,28 @@
         <link href="https://unpkg.com/filepond/dist/filepond.css" rel="stylesheet">
         <link rel="stylesheet" href="./style.css">
         <link href="./static/css/main.d82686d9.css" rel="stylesheet">
-    </head>
-    <body>
-        <noscript>You need to enable JavaScript to run this app.</noscript>
-        <div id="app"></div>
-        <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="./static/js/main.c8146a3b.js"></script>
-    </body>
+
+        <script>
+            if ('serviceWorker' in navigator) {
+                window.addEventListener('load', function() {
+                navigator.serviceWorker.register('worker.js').then(function(registration) {
+                    console.log('Worker registration successful', registration.scope);
+                }, function(err) {
+                    console.log('Worker registration failed', err);
+                }).catch(function(err) {
+                    console.log(err);
+                });
+                });
+            } else {
+                console.log('Service Worker is not supported by browser.');
+            }
+        </script>
+
+</head>
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="app"></div>
+
+    <script type="text/javascript" src="./static/js/main.c5e36acf.js"></script>
+</body>
 </html>
