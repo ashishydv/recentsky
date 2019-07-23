@@ -17,19 +17,19 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
 	
- 	<icon src = "www/images/icons-512.png" 
+ 	<icon src = "images/logo-icon.png" 
       gap:platform = "android" gap:qualifier = "ldpi" />
 		
-   <icon src = "www/images/icons-512.png" 
+   <icon src = "images/logo-icon.png" 
       gap:platform = "android" gap:qualifier = "mdpi" />
 		
-   <icon src = "www/images/icons-512.png" 
+   <icon src = "images/logo-icon.png" 
       gap:platform = "android" gap:qualifier = "hdpi" />
 		
-   <icon src = "www/images/icons-512.png" 
+   <icon src = "images/logo-icon.png" 
       gap:platform = "android" gap:qualifier = "xhdpi" />
 		
-   <icon src = "www/images/icons-512.png" 
+   <icon src = "images/logo-icon.png" 
       gap:platform = "android" gap:qualifier = "xxhdpi" />
 </widget>
 
