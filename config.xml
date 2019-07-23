@@ -10,7 +10,7 @@
     <content src="index.html" />
     <access origin="*" />
     <gap:plugin name="cordova-plugin-whitelist" source="npm" />
-    <gap:plugin name="cordova-plugin-splashscreen" source="npm" />
+    
 	
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
