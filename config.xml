@@ -63,13 +63,15 @@
         <icon src="res/icon/ios/Icon-App-40x40@2x.png" width="80" height="80" />
     </platform>
 	
-    <preference name="SplashScreen" value="splash" />
-    <preference name="SplashScreenBackgroundColor" value="#3f51b5"/>
-    <preference name="AutoHideSplashScreen" value="true" />
-    <splash src="res/splash.png" />
+    
 	
    <platform name="android">
     <!-- you can use any density that exists in the Android project -->
+	  <preference name="SplashScreen" value="splash" />
+    <preference name="SplashScreenBackgroundColor" value="#3f51b5"/>
+    <preference name="AutoHideSplashScreen" value="true" />
+    <splash src="res/splash.png" />
+	   
     <splash src="res/screen/android/splash-port-hdpi.png" density="port-hdpi"/>
     <splash src="res/screen/android/splash-port-ldpi.png" density="port-ldpi"/>
     <splash src="res/screen/android/splash-port-mdpi.png" density="port-mdpi"/>
